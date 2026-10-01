@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .selection-glow {
+        box-shadow: 0 0 20px rgba(140, 230, 0, 0.4);
+    }
+}
